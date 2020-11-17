@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- styles.xml -->
+    <style name="add_card_text">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="save_card_text">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="about_card_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#B2B2B2</item>
+    </style>
+    <style name="add_btn">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <item name="trackTint">@android:color/holo_green_light</item>
+    </style>
+</resources>

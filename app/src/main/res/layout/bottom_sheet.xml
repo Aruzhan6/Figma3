@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#1F1F1F"
+    android:background="@drawable/rounded_dialog"
     android:paddingBottom="30dp"
     android:id="@+id/bottomSheet"
     app:behavior_hideable="true"
@@ -15,10 +15,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#1F1F1F"
+            android:background="@drawable/rounded_dialog"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             tools:context=".MainActivity">
 
@@ -135,6 +136,7 @@
                 android:textAppearance="@style/about_card_text"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/savecardTv"/>
+
             <Button
                 android:id="@+id/addBtn"
                 android:layout_width="0dp"
